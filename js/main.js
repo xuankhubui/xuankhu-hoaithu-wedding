@@ -8,6 +8,7 @@
                 $(this).remove();
             });
         }
+        document.getElementById("my_audio").play();
     });
 
     // Full page
@@ -98,9 +99,9 @@
     });
 
     //audio play
-    $(document).on('click', function () {
-        document.getElementById("my_audio").play();
-    });
+    // $(document).on('click', function () {
+    //     document.getElementById("my_audio").play();
+    // });
 
     // Chặn menu chuột phải
     $(document).on('contextmenu', function (e) {
