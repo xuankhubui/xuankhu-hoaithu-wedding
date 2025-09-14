@@ -653,6 +653,27 @@ h6 {
     background: #222222;
 }
 
+#place .text-center {
+    text-align: center;
+}
+
+#place .place-title {
+    text-transform: uppercase;
+}
+
+.btn-get-location {
+    display: inline-block;
+    padding: 8px 30px;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    color: #ffffff;
+    background: #800000;
+    border-radius: 30px;
+}
+
 /* ================================================= */
 /* ----------------- RSVP Section ------------------ */
 /* ================================================= */
